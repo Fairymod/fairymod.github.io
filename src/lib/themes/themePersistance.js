@@ -8,7 +8,7 @@ const STORAGE_KEY = 'tw:theme';
 const ACCENT_KEY = 'tw:accent';
 
 if (localStorage && localStorage.getItem(ACCENT_KEY) === null) {
-    localStorage.setItem(ACCENT_KEY, 'Lime Green')
+    localStorage.setItem(ACCENT_KEY, 'Magenta')
     window.Recolor = {primary: (new Theme().set('Lime Green')).accentData['motion-primary']}
 }
 
@@ -63,4 +63,5 @@ const persistTheme = theme => {
 export {
     detectTheme,
     persistTheme
+
 }
