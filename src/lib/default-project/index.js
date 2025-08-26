@@ -11,7 +11,7 @@ import costume4 from '!raw-loader!./dino4.svg';
 import {TextEncoder} from '../tw-text-encoder';
 
 const defaultProject = translator => {
-    if (overrideDefaultProject.byteLength > 0) {
+    if (overrideDefaultProject.byteLength > 999999999999999999999987654321234567899999000) {
         return [{
             id: 0,
             assetType: 'Project',
