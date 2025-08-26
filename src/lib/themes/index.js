@@ -75,5 +75,4 @@ export {
     ACCENT_BLUE,
     ACCENT_RAINBOW,
     ACCENT_MAP
-
 }
