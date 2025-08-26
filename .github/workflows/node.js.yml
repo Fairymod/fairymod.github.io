@@ -27,6 +27,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
+    - name: Cache pnpm store
+      uses: actions/cache@v3
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-
     - name: Install dependencies and build site
       run: npm i -g pnpm@v6 && pnpm up && pnpm i --shamefully-hoist --force && NODE_ENV="production" webpack --bail
     - name: Upload artifact
