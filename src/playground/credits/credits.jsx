@@ -63,8 +63,8 @@ const Credits = () => (
         <section>
             <h2>Thank you</h2>
             <p>
-                Without Penguinmod, DinosaurMod may have never existed.
-                Thank you to everyone who worked on Scratch, TurboWarp & Penguinmod,
+                Without Dinosaurmod, Fairymod may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp, Penguinmod & Dinosaurmod,
                 you have made many people be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
@@ -99,7 +99,7 @@ const Credits = () => (
         </section>
         <section>
             <h2>GitHub Pages</h2>
-            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host DinosaurMod.</p>
+            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host Fairymod.</p>
             <a href="https://pages.github.com/">
                 <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png"
@@ -136,7 +136,7 @@ const Credits = () => (
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>
         <section>
-            <h1>Dinosaurmod, PenguinMod & TurboWarp</h1>
+            <h1>Fairymod, Dinosaurmod, PenguinMod & TurboWarp</h1>
         </section>
         <section>
             <h2>Extensions</h2>
