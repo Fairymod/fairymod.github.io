@@ -191,6 +191,26 @@ const menuItems = [
         featured: true
     },
     {
+        name: '3D',
+        extensionId: 'jg3d',
+        iconURL: jg3dExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#B200FF',
+        insetIconURL: jg3dInsetExtensionIcon,
+        description: 'Use the magic of 3D to spice up your project.',
+        featured: true
+    },
+    {
+        name: '3D Physics',
+        extensionId: 'fr3d',
+        iconURL: fr3dPhysicsExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#D066FE',
+        insetIconURL: fr3dPhysicsInsetExtensionIcon,
+        description: 'Physics for the 3D extension.',
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Pen"
@@ -1745,26 +1765,6 @@ if (IsLocal || IsLiveTests) {
             iconURL: jgCloneManagerExtensionIcon,
             tags: ['penguinmod'],
             description: 'Mainly sharing data between clones and the main sprite, but also some other small features. This has been replaced by the TurboWarp Clones+ extension.',
-            featured: true
-        },
-        {
-            name: '3D',
-            extensionId: 'jg3d',
-            iconURL: jg3dExtensionIcon,
-            tags: ['penguinmod'],
-            customInsetColor: '#B200FF',
-            insetIconURL: jg3dInsetExtensionIcon,
-            description: 'Use the magic of 3D to spice up your project.',
-            featured: true
-        },
-        {
-            name: '3D Physics',
-            extensionId: 'fr3d',
-            iconURL: fr3dPhysicsExtensionIcon,
-            tags: ['penguinmod'],
-            customInsetColor: '#D066FE',
-            insetIconURL: fr3dPhysicsInsetExtensionIcon,
-            description: 'Physics for the 3D extension.',
             featured: true
         },
         {
