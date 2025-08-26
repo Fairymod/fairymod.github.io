@@ -95,7 +95,7 @@ const formatProjectTitle = _title => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of Penguinmod',
+        defaultMessage: 'A mod of Dinosaurmod',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
@@ -141,7 +141,7 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="Dinosaurmod, PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    defaultMessage="Fairymod, Dinosaurmod, PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
                     description="Disclaimer that Dinosaurmod, PenguinMod and TurboWarp are not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
@@ -273,9 +273,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `DinosaurMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `Fairymod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - DinosaurMod`;
+            document.title = `${title} - Fairymod`;
         }
     }
     copyProjectLink (id) {
@@ -477,7 +477,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="Dinosaurmod is a mod of Penguinmod that adds new blocks and features in extensions or the main toolbox. Penguinmod is a cool mod of turbowarp to share projects with other people. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        defaultMessage="Fairymod is a mod of dinosaurmod that adds new blocks and features in extensions or the main toolbox. Penguinmod is a cool mod of turbowarp to share projects with other people. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
                                         description="Description of Dinosaurmod, PenguinMod and TurboWarp"
                                         id="tw.home.description"
                                     />
