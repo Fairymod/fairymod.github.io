@@ -32,7 +32,7 @@ const ACCENT_MAP = {
     }
 };
 
-const ACCENT_DEFAULT = ACCENT_LIME;
+const ACCENT_DEFAULT = ACCENT_MAGENTA;
 
 let themeObjectsCreated = 0;
 
@@ -75,4 +75,5 @@ export {
     ACCENT_BLUE,
     ACCENT_RAINBOW,
     ACCENT_MAP
+
 }
